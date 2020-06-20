@@ -43,8 +43,8 @@ import mysql.connector
 ''' Create connection to the database. Use username and password from MySQL database '''
 mydb = mysql.connector.connect(
   host="localhost",
-  user="osgrig",
-  password="demoSql4me#1",
+  user="login",
+  password="password",
   database="mydatabase"         #connecting to database
 )
 
