@@ -37,7 +37,11 @@ Created on Jun 19, 2020
 @author: olegg
 '''
 
-''' MySQL Connector must be installed and ready to use '''
+''' MySQL Connector must be installed and ready to use
+Package                Version
+---------------------- -------
+mysql-connector-python 8.0.20
+'''
 import mysql.connector
 
 ''' Create connection to the database. Use username and password from MySQL database '''
